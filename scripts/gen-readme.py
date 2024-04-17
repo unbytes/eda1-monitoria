@@ -162,7 +162,7 @@ def get_semesters_md() -> str:
         for day_month in output[section]:
             md += f"            <li>{'/'.join(day_month.split('-')[::-1])}</li>\n            <ul>\n"
             for exercise in output[section][day_month]:
-                md += f"                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main{exercise['path']}'>{exercise['name']}</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file']}.pdf'>PDF</a></li>\n"
+                md += f"                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main{exercise['path']}'>{exercise['name']}</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>\n"
 
             if check_annotations('base', section, day_month):
                 md += f"                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/annotations.pdf'>PDF</a></li>\n"
