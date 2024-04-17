@@ -101,6 +101,9 @@ def get_files_from_dir(dir: str) -> list:
     cur_path = Path(__file__).parent / ".." / dir
     output = dict()
 
+    if not valid_section(cur_path):
+        return output
+
     for section in os.listdir(cur_path):
         if valid_section(cur_path / section):
             output[section] = dict()
