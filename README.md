@@ -72,6 +72,7 @@
                 <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/ajude-aparecido.c'>Ajude Aparecido</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/ajude-aparecido.pdf'>PDF</a></li>
                 <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/get-min-lista-encadeada.c'>Get Min Lista Encadeada</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/get-min-lista-encadeada.pdf'>PDF</a></li>
                 <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1Nr5c36IRbO5wOCGDZqhNuFgHVadvE0EP/view?usp=drive_link'>Drive</a></li>
             </ul>
             <li>10/04</li>
             <ul>
