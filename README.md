@@ -67,6 +67,12 @@
     <details>
         <summary>2024.1</summary>
         <ul>
+            <li>17/04</li>
+            <ul>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/ajude-aparecido.c'>Ajude Aparecido</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/ajude-aparecido.pdf'>PDF</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/get-min-lista-encadeada.c'>Get Min Lista Encadeada</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/get-min-lista-encadeada.pdf'>PDF</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/annotations.pdf'>PDF</a></li>
+            </ul>
             <li>10/04</li>
             <ul>
                 <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-10/move-os-xs.c'>Move Os Xs</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-10/move-os-xs.pdf'>PDF</a></li>
