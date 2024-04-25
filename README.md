@@ -67,6 +67,12 @@
     <details>
         <summary>2024.1</summary>
         <ul>
+            <li>24/04</li>
+            <ul>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-24/impressão-e-inserção.c'>Impressão E Inserção</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-24/impressão-e-inserção.pdf'>PDF</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-24/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1uG7YeL40QJfWjP0DjaSsMHlWbm7cpWaf/view?usp=drive_link'>Drive</a></li>
+            </ul>
             <li>17/04</li>
             <ul>
                 <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/ajude-aparecido.c'>Ajude Aparecido</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/ajude-aparecido.pdf'>PDF</a></li>
