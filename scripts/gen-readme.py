@@ -136,6 +136,10 @@ def get_files_from_dir(dir: str) -> list:
     return output
 
 
+def check_file_existence(path: str):
+    return os.path.exists(path)
+
+
 def check_annotations(dir: str, semester: str, date: str) -> str:
     cur_path = Path(__file__).parent / ".." / dir
     for file in os.listdir(cur_path / semester / 'docs' / date):
@@ -159,10 +163,14 @@ def get_semesters_md() -> str:
     for section in output:
         md += f"    <details>\n        <summary>{section}</summary>\n"
         md += "        <ul>\n"
-        for day_month in output[section]:
+        for day_month in sorted(output[section]):
             md += f"            <li>{'/'.join(day_month.split('-')[::-1])}</li>\n            <ul>\n"
             for exercise in output[section][day_month]:
-                md += f"                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main{exercise['path']}'>{exercise['name']}</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>\n"
+                pdf = ""
+                if check_file_existence(f"base/{section}/docs/{day_month}/{exercise['file'].replace('.c', '.pdf')}"):
+                    pdf = " + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a>"
+
+                md += f"                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main{exercise['path']}'>{exercise['name']}</a>{pdf}</li>\n"
 
             if check_annotations('base', section, day_month):
                 md += f"                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/annotations.pdf'>PDF</a></li>\n"
