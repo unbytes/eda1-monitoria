@@ -67,24 +67,34 @@
     <details>
         <summary>2024.1</summary>
         <ul>
-            <li>24/04</li>
+            <li>10/04</li>
             <ul>
-                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-24/impressão-e-inserção.c'>Impressão E Inserção</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-24/impressão-e-inserção.pdf'>PDF</a></li>
-                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-24/annotations.pdf'>PDF</a></li>
-                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1uG7YeL40QJfWjP0DjaSsMHlWbm7cpWaf/view?usp=drive_link'>Drive</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-10/move-os-xs.c'>Move Os Xs</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-10/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1TIDngIPs7yGTWyzi380gF4WiGyJ60E8-/view?usp=drive_link'>Drive</a></li>
             </ul>
             <li>17/04</li>
             <ul>
-                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/ajude-aparecido.c'>Ajude Aparecido</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/ajude-aparecido.pdf'>PDF</a></li>
-                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/get-min-lista-encadeada.c'>Get Min Lista Encadeada</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/get-min-lista-encadeada.pdf'>PDF</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/ajude-aparecido.c'>Ajude Aparecido</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-17/get-min-lista-encadeada.c'>Get Min Lista Encadeada</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>
                 <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-17/annotations.pdf'>PDF</a></li>
                 <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1Nr5c36IRbO5wOCGDZqhNuFgHVadvE0EP/view?usp=drive_link'>Drive</a></li>
             </ul>
-            <li>10/04</li>
+            <li>24/04</li>
             <ul>
-                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-10/move-os-xs.c'>Move Os Xs</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-10/move-os-xs.pdf'>PDF</a></li>
-                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-10/annotations.pdf'>PDF</a></li>
-                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1TIDngIPs7yGTWyzi380gF4WiGyJ60E8-/view?usp=drive_link'>Drive</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/04-24/impressão-e-inserção.c'>Impressão E Inserção</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/04-24/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1uG7YeL40QJfWjP0DjaSsMHlWbm7cpWaf/view?usp=drive_link'>Drive</a></li>
+            </ul>
+            <li>08/05</li>
+            <ul>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-08/bin-search.c'>Bin Search</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-08/elevator-trouble.c'>Elevator Trouble</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-08/stack.c'>Stack</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-08/queue.c'>Queue</a></li>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-08/bin-tree.c'>Bin Tree</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/05-08/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1wCyB2jala-cM0fGhyBtTWsGQ_EJkV19O/view?usp=sharing'>Drive</a></li>
             </ul>
         </ul>
     </details>
