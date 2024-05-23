@@ -168,7 +168,7 @@ def get_semesters_md() -> str:
             for exercise in output[section][day_month]:
                 pdf = ""
                 if check_file_existence(f"base/{section}/docs/{day_month}/{exercise['file'].replace('.c', '.pdf')}"):
-                    pdf = " + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a>"
+                    pdf = f" + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/{section}/docs/{day_month}/{exercise['file'].split('.')[0]}.pdf'>PDF</a>"
 
                 md += f"                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main{exercise['path']}'>{exercise['name']}</a>{pdf}</li>\n"
 
