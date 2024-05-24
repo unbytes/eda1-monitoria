@@ -13,6 +13,10 @@ seg = vetor para a árvore segtree
 Para inicializar o vetor de 'seg' você deve utilizar
 'calloc' em sua função 'main' passando o tamanho como
 2*N, ou seja, o dobro do tamanho do vetor original
+
+OBS: RANGE DE INDICES SÂO DE 0 ATÉ N - 1
+Se temos o array = [1, 5, 7, 3, 2]
+Query para l = 2 e r = 4, [5, 7, 3] deve ser feita como: query(1, 3)
 */
 
 T e = 0;
@@ -56,10 +60,12 @@ int main() {
     // define segtree com tamanho de 2*N do vetor original
     seg = calloc(N + N, sizeof(ll));
 
+    ll el;
     for (ll i = 0; i < N; i++) {
         // prepara a segtree para as queries colocando cada
         // elemento na posição correta com a func 'assign'
-        assign(i, arr[i]);
+        scanf(" %lld", &el);
+        assign(i, el);
     }
 
     // aqui você pode fazer cada uma das queries com [l, r]
