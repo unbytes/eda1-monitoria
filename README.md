@@ -100,6 +100,12 @@
             <ul>
                 <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/05-15/DEV_CP-Ambitious-XOXO.c'>Dev Cp Ambitious Xoxo</a> + <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/05-15/DEV_CP-Ambitious-XOXO.pdf'>PDF</a></li>
             </ul>
+            <li>05/06</li>
+            <ul>
+                <li>Exercício: <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/code/06-05/ordenacoes-e-priority-queue.c'>Ordenacoes E Priority Queue</a></li>
+                <li>Anotações da aula - <a target='_self' href='https://github.com/unbytes/eda1-monitoria/tree/main/base/2024.1/docs/06-05/annotations.pdf'>PDF</a></li>
+                <li>Gravação da aula - <a target='_self' href='https://drive.google.com/file/d/1K-60NVrYWV059OoYgKm5s0HqmoEwZ5R7/view?usp=sharing'>Drive</a></li>
+            </ul>
         </ul>
     </details>
 </div>
